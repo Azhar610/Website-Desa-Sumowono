@@ -129,7 +129,7 @@
 
         /* Main Content Area */
         .main-content {
-            
+            padding: 2rem;
         }
 
         
@@ -203,7 +203,10 @@
 
     <div class="container">
         <main class="main-content">
-            
+            <div class = "profil-desa">
+                <h2>PROFIL DESA</h2>
+
+            </div>
         </main>
     </div>
 

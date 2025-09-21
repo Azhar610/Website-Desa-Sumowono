@@ -129,7 +129,7 @@
 
         /* Main Content Area */
         .main-content {
-            
+            padding: 2rem;
         }
 
         
