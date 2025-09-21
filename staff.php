@@ -372,8 +372,8 @@ $artikel = [
 
         <nav class="navbar">
             <ul>
-                <li><a href="#" class="active" >BERANDA</a></li>
-                <li><a href="staff.php">STAFF</a></li>
+                <li><a href="index.php" >BERANDA</a></li>
+                <li><a href="#" class="active" >STAFF</a></li>
                 <li><a href="berita-dan-artikel.php">BERITA & ARTIKEL</a></li>
             </ul>
         </nav>
