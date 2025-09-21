@@ -195,7 +195,7 @@
         
         
         /* Pagination */
-        .pagination-container {
+        /*.pagination-container {
             border-top: 1px solid var(--border-grey);
             padding-top: 2rem;
             margin-top: 2.5rem;
@@ -240,7 +240,7 @@
             color: var(--text-light);
             border-color: var(--main-green);
             font-weight: 600;
-        }
+        }*/
 
         /* Footer */
         .footer {
