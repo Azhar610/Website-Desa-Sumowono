@@ -91,15 +91,17 @@ $artikel = [
         .header .logo {
             width: 60px;
             height: 60px;
-            background-color: var(--border-grey);
             border-radius: 8px;
             margin-right: 1.5rem;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 0.8rem;
-            color: #888;
-            text-align: center;
+        }
+        .header .logo img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain; /* atau cover */
+            border-radius: 8px; /* kalau mau ikutan rounded */
         }
         .header .title-info h1 { margin: 0; font-size: 1.5rem; font-weight: 700; color: var(--text-dark); }
         .header .title-info p { margin: 0; font-size: 0.9rem; color: #666; }
@@ -142,7 +144,9 @@ $artikel = [
 <body>
     <div class="sticky-header-wrapper">
         <header class="header">
-            <div class="logo">Gambar</div>
+            <div class="logo">
+                <img src = "Icon_Purworejo.png"/>
+            </div>
             <div class="title-info">
                 <h1>DESA SUMOWONO</h1>
                 <p>Kecamatan Kaligesing, Kabupaten Purworejo, Jawa Tengah</p>
@@ -150,8 +154,8 @@ $artikel = [
         </header>
         <nav class="navbar">
             <ul>
-                <li><a href="#">BERANDA</a></li>
-                <li><a href="#">STAFF</a></li>
+                <li><a href="index.php">BERANDA</a></li>
+                <li><a href="staff.php">STAFF</a></li>
                 <li><a href="berita-dan-artikel.php" class="active">BERITA & ARTIKEL</a></li>
             </ul>
         </nav>

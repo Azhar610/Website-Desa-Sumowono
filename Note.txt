@@ -2,3 +2,5 @@ Akun Hosting
 
 websumowono@gmail.com
 pass = web_sumowono338
+
+Hosting Menggunakan Firebase 
