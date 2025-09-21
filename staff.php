@@ -55,27 +55,20 @@
         }
         
         /* Header Section */
-        .header {
-            display: flex;
-            align-items: center;
-            /* PERUBAHAN: Mengurangi padding bawah untuk memperkecil jarak */
-            padding: 1.5rem 2rem 0.5rem;
-            max-width: 900px;
-            margin-left: 4rem;
-        }
-
         .header .logo {
             width: 60px;
             height: 60px;
-            background-color: var(--border-grey);
             border-radius: 8px;
             margin-right: 1.5rem;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 0.8rem;
-            color: #888;
-            text-align: center;
+        }
+        .header .logo img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain; /* atau cover */
+            border-radius: 8px; /* kalau mau ikutan rounded */
         }
 
         .header .title-info h1 {
