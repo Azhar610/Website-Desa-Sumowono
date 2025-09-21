@@ -374,7 +374,7 @@ $artikel = [
             <ul>
                 <li><a href="#" class="active" >BERANDA</a></li>
                 <li><a href="#">STAFF</a></li>
-                <li><a href="#">BERITA & ARTIKEL</a></li>
+                <li><a href="berita-dan-artikel.php">BERITA & ARTIKEL</a></li>
             </ul>
         </nav>
     </div>
