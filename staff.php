@@ -45,7 +45,7 @@
 
         .container {
             width: 100%;
-            max-width: 900px;
+            max-width: 1400px;
             background-color: var(--text-light);
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
             border-radius: 12px;
@@ -55,6 +55,15 @@
         }
         
         /* Header Section */
+        .header {
+            display: flex;
+            align-items: center;
+            /* PERUBAHAN: Mengurangi padding bawah untuk memperkecil jarak */
+            padding: 1.5rem 2rem 0.5rem;
+            max-width: 900px;
+            margin-left: 4rem;
+        }
+
         .header .logo {
             width: 60px;
             height: 60px;
@@ -126,7 +135,6 @@
         }
 
         
-
         /* Footer */
         .footer {
             background-color: var(--main-green);
