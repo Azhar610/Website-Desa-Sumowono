@@ -1,42 +1,7 @@
 <?php
 // Data dummy untuk Berita. Dalam aplikasi nyata, data ini akan diambil dari database.
 // Diurutkan dari yang terbaru.
-$berita = [
-    [
-        'judul' => 'Pembangunan Balai Desa Tahap Akhir Hampir Selesai',
-        'tanggal' => 'Senin, 22 September 2025',
-        'gambar' => 'https://placehold.co/800x400/5AB39D/FFFFFF?text=Gambar+Berita+1'
-    ],
-    [
-        'judul' => 'Warga Desa Sumowono Rayakan HUT Kemerdekaan dengan Meriah',
-        'tanggal' => 'Jumat, 18 Agustus 2025',
-        'gambar' => 'https://placehold.co/800x400/5AB39D/FFFFFF?text=Gambar+Berita+2'
-    ],
-    [
-        'judul' => 'Program Pelatihan UKM Digital Menarik Minat Ibu-Ibu PKK',
-        'tanggal' => 'Selasa, 15 Juli 2025',
-        'gambar' => 'https://placehold.co/800x400/5AB39D/FFFFFF?text=Gambar+Berita+3'
-    ],
-];
 
-// Data dummy untuk Artikel.
-$artikel = [
-    [
-        'judul' => 'Tips Menanam Sayuran Organik di Pekarangan Rumah',
-        'tanggal' => 'Rabu, 10 September 2025',
-        'gambar' => 'https://placehold.co/800x400/6A9C8F/FFFFFF?text=Gambar+Artikel+1'
-    ],
-    [
-        'judul' => 'Mengenal Sejarah dan Asal-Usul Desa Sumowono',
-        'tanggal' => 'Kamis, 21 Agustus 2025',
-        'gambar' => 'https://placehold.co/800x400/6A9C8F/FFFFFF?text=Gambar+Artikel+2'
-    ],
-    [
-        'judul' => 'Manfaat Jamu Tradisional untuk Kesehatan Keluarga',
-        'tanggal' => 'Senin, 4 Agustus 2025',
-        'gambar' => 'https://placehold.co/800x400/6A9C8F/FFFFFF?text=Gambar+Artikel+3'
-    ],
-];
 ?>
 <!DOCTYPE html>
 <html lang="id">
@@ -227,41 +192,7 @@ $artikel = [
             gap: 2rem;
         }
 
-        .post-card {
-            background-color: #fff;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-            border: 1px solid var(--border-grey);
-            transition: all 0.3s ease;
-        }
-
-        .post-card:hover {
-            transform: translateY(-5px); 
-            box-shadow: 0 8px 20px rgba(0,0,0,0.12); 
-        }
-
-        .post-card img {
-            width: 100%;
-            height: auto;
-            display: block;
-            background-color: var(--light-green);
-        }
-
-        .post-card-content {
-            padding: 1rem 1.5rem;
-        }
-
-        .post-card-content h3 {
-            margin: 0 0 0.25rem 0;
-            font-size: 1.25rem;
-        }
-
-        .post-card-content p {
-            margin: 0;
-            font-size: 0.9rem;
-            color: #666;
-        }
+        
         
         /* Pagination */
         .pagination-container {

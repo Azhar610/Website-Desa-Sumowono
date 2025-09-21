@@ -1,42 +1,7 @@
 <?php
 // Data dummy untuk Berita. Dalam aplikasi nyata, data ini akan diambil dari database.
 // Diurutkan dari yang terbaru.
-$berita = [
-    [
-        'judul' => 'Pembangunan Balai Desa Tahap Akhir Hampir Selesai',
-        'tanggal' => 'Senin, 22 September 2025',
-        'gambar' => 'https://placehold.co/800x400/5AB39D/FFFFFF?text=Gambar+Berita+1'
-    ],
-    [
-        'judul' => 'Warga Desa Sumowono Rayakan HUT Kemerdekaan dengan Meriah',
-        'tanggal' => 'Jumat, 18 Agustus 2025',
-        'gambar' => 'https://placehold.co/800x400/5AB39D/FFFFFF?text=Gambar+Berita+2'
-    ],
-    [
-        'judul' => 'Program Pelatihan UKM Digital Menarik Minat Ibu-Ibu PKK',
-        'tanggal' => 'Selasa, 15 Juli 2025',
-        'gambar' => 'https://placehold.co/800x400/5AB39D/FFFFFF?text=Gambar+Berita+3'
-    ],
-];
 
-// Data dummy untuk Artikel.
-$artikel = [
-    [
-        'judul' => 'Tips Menanam Sayuran Organik di Pekarangan Rumah',
-        'tanggal' => 'Rabu, 10 September 2025',
-        'gambar' => 'https://placehold.co/800x400/6A9C8F/FFFFFF?text=Gambar+Artikel+1'
-    ],
-    [
-        'judul' => 'Mengenal Sejarah dan Asal-Usul Desa Sumowono',
-        'tanggal' => 'Kamis, 21 Agustus 2025',
-        'gambar' => 'https://placehold.co/800x400/6A9C8F/FFFFFF?text=Gambar+Artikel+2'
-    ],
-    [
-        'judul' => 'Manfaat Jamu Tradisional untuk Kesehatan Keluarga',
-        'tanggal' => 'Senin, 4 Agustus 2025',
-        'gambar' => 'https://placehold.co/800x400/6A9C8F/FFFFFF?text=Gambar+Artikel+3'
-    ],
-];
 ?>
 <!DOCTYPE html>
 <html lang="id">
