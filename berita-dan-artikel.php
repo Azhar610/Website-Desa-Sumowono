@@ -365,7 +365,9 @@ $artikel = [
 
     <div class="sticky-header-wrapper">
         <header class="header">
-            <div class="logo">Gambar</div>
+            <div class="logo">
+                <img src = "Icon_Purworejo.png"/>
+            </div>
             <div class="title-info">
                 <h1>DESA SUMOWONO</h1>
                 <p>Kecamatan Kaligesing, Kabupaten Purworejo, Jawa Tengah</p>
