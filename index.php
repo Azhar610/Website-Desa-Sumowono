@@ -14,173 +14,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         /* CSS Reset & Basic Styling */
-        :root {
-            --main-green: #3A8E7A;
-            --light-green: #5AB39D;
-            --bg-grey: #F0F2F5;
-            --border-grey: #D9D9D9;
-            --text-dark: #333333;
-            --text-light: #FFFFFF;
-        }
-
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            background-color: var(--bg-grey);
-            color: var(--text-dark);
-            /* PERUBAHAN: Menyesuaikan padding atas agar pas dengan header yang lebih ramping */
-            padding-top: 155px; 
-        }
-
+        :root {--main-green: #3A8E7A;--light-green: #5AB39D;--bg-grey: #F0F2F5;--border-grey: #D9D9D9;--text-dark: #333333;--text-light: #FFFFFF;}
+        body {font-family: 'Poppins', sans-serif;margin: 0;background-color: var(--bg-grey);color: var(--text-dark);padding-top: 155px; }
         /* BARU: Wrapper untuk header dan navbar yang akan tetap di atas (sticky/fixed) */
-        .sticky-header-wrapper {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            z-index: 1000;
-            background-color: var(--text-light);
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-        .container {
-            width: 100%;
-            max-width: 1400px;
-            background-color: var(--text-light);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-            border-radius: 12px;
-            overflow: hidden;
-            /* PERUBAHAN: Mengembalikan container ke tengah */
-            margin: 0 auto 2rem;
-        }
+        .sticky-header-wrapper {position: fixed;top: 0;left: 0;width: 100%;z-index: 1000;background-color: var(--text-light);box-shadow: 0 2px 5px rgba(0,0,0,0.1)}
+        .container {width: 100%;max-width: 1400px;background-color: var(--text-light);box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);border-radius: 12px;overflow: hidden;margin: 0 auto 2rem;}
         
         /* Header Section */
-        .header {
-            display: flex;
-            align-items: center;
-            /* PERUBAHAN: Mengurangi padding bawah untuk memperkecil jarak */
-            padding: 1.5rem 2rem 0.5rem;
-            max-width: 900px;
-            margin-left: 4rem;
-        }
-
-        .header .logo {
-            width: 60px;
-            height: 60px;
-            border-radius: 8px;
-            margin-right: 1.5rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .header .logo img {
-            max-width: 100%;
-            max-height: 100%;
-            object-fit: contain; /* atau cover */
-            border-radius: 8px; /* kalau mau ikutan rounded */
-        }
-
-        .header .title-info h1 {
-            margin: 0;
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--text-dark);
-        }
-
-        .header .title-info p {
-            margin: 0;
-            font-size: 0.9rem;
-            color: #666;
-        }
+        .header {display: flex;align-items: center;padding: 1.5rem 2rem 0.5rem;max-width: 900px;margin-left: 4rem;}
+        .header .logo {width: 60px;height: 60px;border-radius: 8px;margin-right: 1.5rem;display: flex;align-items: center;justify-content: center;}
+        .header .logo img {max-width: 100%;max-height: 100%;object-fit: contain; border-radius: 8px; }
+        .header .title-info h1 {margin: 0;font-size: 1.5rem;font-weight: 700;color: var(--text-dark);}
+        .header .title-info p {margin: 0;font-size: 0.9rem;color: #666;}
 
         /* Navigation Bar */
-        .navbar {
-            /* PERUBAHAN: Mengurangi padding untuk memperkecil jarak */
-            padding: 0 0 0.5rem;
-        }
-
-        .navbar ul {
-            list-style: none;
-            margin-left: 4rem;
-            padding: 0 0.5rem;
-            display: inline-flex; 
-            gap: 0.5rem;
-            background-color: #F8F9FA; 
-            border-radius: 99px; 
-        }
-
-        .navbar ul li a {
-            text-decoration: none;
-            color: var(--text-dark);
-            font-weight: 500;
-            padding: 0.75rem 1.5rem;
-            border-radius: 99px;
-            transition: all 0.3s ease;
-            display: block;
-        }
-        
-        .navbar ul li a:hover {
-            background-color: #e2e6ea;
-        }
-
-        .navbar ul li a.active {
-            background-color: var(--main-green);
-            color: var(--text-light);
-            font-weight: 600;
-        }
+        .navbar {padding: 0 0 0.5rem;}
+        .navbar ul {list-style: none;margin-left: 4rem;padding: 0 0.5rem;display: inline-flex; gap: 0.5rem;background-color: #F8F9FA; border-radius: 99px; }
+        .navbar ul li a {text-decoration: none;color: var(--text-dark);font-weight: 500;padding: 0.75rem 1.5rem;border-radius: 99px;transition: all 0.3s ease;display: block;}
+        .navbar ul li a:hover {background-color: #e2e6ea;}
+        .navbar ul li a.active {background-color: var(--main-green);color: var(--text-light);font-weight: 600;}
 
         /* Main Content Area */
-        .main-content {
-            padding: 2rem;
-        }
-
+        .main-content {padding: 2rem;}
         
         /* Footer */
-        .footer {
-            background-color: var(--main-green);
-            color: var(--text-light);
-            padding: 2.5rem 2rem;
-            width: 100%;
-            box-sizing: border-box;
-        }
-
-        .footer-content-wrapper {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 2rem;
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        .footer-col h4 {
-            margin-top: 0;
-            margin-bottom: 1rem;
-            font-size: 1.1rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .footer-col ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-        
-        .footer-col ul li {
-            margin-bottom: 0.75rem;
-        }
-
-        .footer-col ul li a {
-            text-decoration: none;
-            color: #E0F2F1;
-            transition: color 0.3s ease;
-        }
-
-        .footer-col ul li a:hover {
-            color: #fff;
-            text-decoration: underline;
-        }
+        .footer {background-color: var(--main-green);color: var(--text-light);padding: 2.5rem 2rem;width: 100%;box-sizing: border-box;}
+        .footer-content-wrapper {display: grid;grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));gap: 2rem;max-width: 900px;margin: 0 auto;}
+        .footer-col h4 {margin-top: 0;margin-bottom: 1rem;font-size: 1.1rem;font-weight: 600;text-transform: uppercase;letter-spacing: 0.5px;}
+        .footer-col ul {list-style: none;margin: 0;padding: 0;}       
+        .footer-col ul li {margin-bottom: 0.75rem;}
+        .footer-col ul li a {text-decoration: none;color: #E0F2F1;transition: color 0.3s ease;}
+        .footer-col ul li a:hover {color: #fff;text-decoration: underline;}
     </style>
 </head>
 <body>
