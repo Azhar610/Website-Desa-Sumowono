@@ -39,9 +39,7 @@
         /* Styling Umum untuk Section */
         .content-section {margin-bottom: 4rem;}
         .content-section h2 {
-            font-size: 1.8rem;
-            font-weight: 600;
-            color: var(--text-dark);
+            color: var(--main-green);
             margin-bottom: 1.5rem;
             position: relative;
             padding-bottom: 0.5rem;
@@ -51,7 +49,7 @@
             position: absolute;
             bottom: 0;
             left: 0;
-            width: 80px;
+            width: 500px;
             height: 4px;
             background-color: var(--main-green);
             border-radius: 2px;
