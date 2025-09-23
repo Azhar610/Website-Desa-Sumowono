@@ -59,21 +59,11 @@ $detailBerita = [
             max-width: 900px;
             margin-left: 4rem;
         }
-        .header .logo {
-            width: 60px;
-            height: 60px;
-            background-color: var(--border-grey);
-            border-radius: 8px;
-            margin-right: 1.5rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 0.8rem;
-            color: #888;
-            text-align: center;
-        }
+        .header .logo {width: 60px;height: 60px;border-radius: 8px;margin-right: 1.5rem;display: flex;align-items: center;justify-content: center;}
+        .header .logo img {max-width: 100%;max-height: 100%;object-fit: contain; border-radius: 8px; }
         .header .title-info h1 { margin: 0; font-size: 1.5rem; font-weight: 700; }
         .header .title-info p { margin: 0; font-size: 0.9rem; color: #666; }
+
         .navbar { padding: 0 0 0.5rem; }
         .navbar ul { list-style: none; margin-left: 4rem; padding: 0 0.5rem; display: inline-flex; gap: 0.5rem; background-color: #F8F9FA; border-radius: 99px; }
         .navbar ul li a { text-decoration: none; color: var(--text-dark); font-weight: 500; padding: 0.75rem 1.5rem; border-radius: 99px; transition: all 0.3s ease; display: block; }
@@ -121,7 +111,7 @@ $detailBerita = [
 <body>
     <div class="sticky-header-wrapper">
         <header class="header">
-            <div class="logo">Gambar</div>
+            <div class="logo"><img src = "Icon_Purworejo.png"/></div>
             <div class="title-info">
                 <h1>DESA SUMOWONO</h1>
                 <p>Kecamatan Kaligesing, Kabupaten Purworejo, Jawa Tengah</p>
