@@ -119,8 +119,8 @@ $detailBerita = [
         </header>
         <nav class="navbar">
             <ul>
-                <li><a href="#">BERANDA</a></li>
-                <li><a href="#">STAFF</a></li>
+                <li><a href="index.php">BERANDA</a></li>
+                <li><a href="staff.php">STAFF</a></li>
                 <li><a href="berita-dan-artikel.php" class="active">BERITA & ARTIKEL</a></li>
             </ul>
         </nav>
