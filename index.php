@@ -1,6 +1,4 @@
 <?php
-// Data dummy untuk Berita. Dalam aplikasi nyata, data ini akan diambil dari database.
-// Diurutkan dari yang terbaru.
 
 ?>
 <!DOCTYPE html>
