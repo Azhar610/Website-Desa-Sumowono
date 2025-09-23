@@ -95,7 +95,7 @@
         .berita-grid {display: grid;grid-template-columns: repeat(3, 1fr);gap: 1.5rem;}
         .berita-card {border-radius: 12px;overflow: hidden;background-color: var(--bg-grey);box-shadow: 0 2px 8px rgba(0,0,0,0.07);position: relative;height: 250px;display: block;text-decoration: none;}
         .berita-card img {width: 100%;height: 100%;object-fit: cover;}
-        .card-overlay {position: absolute;bottom: 0;left: 0;right: 0;padding: 1.5rem 1rem 1rem;background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);color: var(--text-light);}
+        .card-overlay {position: absolute;bottom: 0;left: 0;right: 0;padding: 1.5rem 1rem 1rem;background: linear-gradient(to top, var(--main-green), transparent);color: var(--text-light);}
         .card-overlay h3 {margin: 0 0 0.25rem 0;font-size: 1.1rem;}
         .card-overlay p {margin: 0;font-size: 0.8rem;opacity: 0.9;}
 
