@@ -133,7 +133,7 @@
                 <hr class="section-divider">
                 <div class="profil-content">
                     <div class="profil-image"><img src="https://img.icons8.com/ios/100/000000/camera--v1.png" alt="Ikon Kamera"></div>
-                    <div class="profil-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+                    <div class="profil-text"><p>Sumowono adalah salah satu desa yang terletak di Kecamatan Kaligesing, Kabupaten Purworejo, Provinsi Jawa Tengah. Berada di kawasan perbukitan, desa ini menjadi bagian dari wilayah Kaligesing yang dikenal dengan potensi agraris dan keindahan alamnya. Secara administratif, pemerintahan Desa Sumowono terbagi ke dalam empat dusun, yaitu Dusun Karangan, Dusun Krajan, Dusun Tegalombo, dan Dusun Ngadiwulan. Struktur ini selanjutnya terbagi lagi menjadi 3 Rukun Warga (RW) dan 7 Rukun Tetangga (RT) yang menjadi basis komunitas warganya.</p></div>
                 </div>
             </section>
             <section class="content-section" id="lokasi">
