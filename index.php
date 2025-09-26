@@ -171,7 +171,6 @@
             <div class="footer-col"><h4>SOSIAL MEDIA</h4><ul><li><a href="#">Link YouTube</a></li><li><a href="#">Link Instagram</a></li><li><a href="#">Link Tiktok</a></li></ul></div>
             <div class="footer-col"><h4>KONTAK</h4><ul><li><a href="#">+62 800 1234 5678</a></li><li><a href="#">alamat email</a></li><li><a href="#">link (opsional)</a></li></ul></div>
         </div>
-    </footer>
-
+    </footer>    
 </body>
 </html>
