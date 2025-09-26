@@ -2,4 +2,5 @@ Akun Hosting
 
 websumowono@gmail.com
 
-Hosting Menggunakan Firebase 
+Hosting Menggunakan InfinityFree
+ 
