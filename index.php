@@ -175,5 +175,28 @@
             <div class="footer-col"><h4>KONTAK</h4><ul><li><a href="#">+62 800 1234 5678</a></li><li><a href="#">alamat email</a></li><li><a href="#">link (opsional)</a></li></ul></div>
         </div>
     </footer>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyDZ5FtC_XfhUKP6lj7bToGDwMxdBG4t9Ms",
+            authDomain: "website-sumowono.firebaseapp.com",
+            projectId: "website-sumowono",
+            storageBucket: "website-sumowono.firebasestorage.app",
+            messagingSenderId: "710172929189",
+            appId: "1:710172929189:web:00f353dbbb7edd9c25f14c",
+            measurementId: "G-PMX3KVGMQP"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+</script>
 </body>
 </html>
